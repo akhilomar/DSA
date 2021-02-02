@@ -16,7 +16,7 @@ int main(void){
     int res = INT_MAX;
     
     for(int i = 0; i < 26; i++){
-        if(m[i] > 0)
+        if(m[i] >= 0)
             res = min(res, m[i]);
     }
     string ans;
