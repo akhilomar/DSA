@@ -13,7 +13,7 @@ vector<int> processor(vector<int> a, int k){
     }
     ans.push_back(counter);
     for(int i = k; i < a.size(); i++){
-        if(m[a[i - k]] == 1)
+        if(m[a[i - k]] == 1) //==1 not >=1 because if m[a[i-k]] == 2 then the number will be consider in window so counter-- will effect resultds  
             counter--;
         m[a[i-k]]-=1;
         if(m[a[i]] == 0){
