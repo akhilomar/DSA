@@ -10,3 +10,4 @@ void BubbleSort(vector<int>& a){
 }
 
 It is Sorting from end
+assume it as bubble sorting in increasing order
