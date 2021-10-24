@@ -1,3 +1,6 @@
+ Count distinct elements in every window of size k, expected time complexity O(n).
+
+
 #include<bits/stdc++.h>
 using namespace std;
 vector<int> processor(vector<int> a, int k){
