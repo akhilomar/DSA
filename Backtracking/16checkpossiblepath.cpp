@@ -3,7 +3,7 @@ Q: We need to check wether path exist upto the bottom right end.
 here 1 means can be travel and 0 means no path. 
 
 bool isSafe(vector<vector<int>> maze, int x, int y){
-    if(x >=0 && y >= 0 && x < maze.size() && y < maze.size())
+    if(x >=0 && y >= 0 && x < maze.size() && y < maze.size() && maze[x][y] == 1)
         return true;
     return false;
 }
