@@ -1,4 +1,5 @@
 Q: Given string, you need to find string of size k from given string such that it contains smallest alphabets not necessarily in order order.
+(https://www.geeksforgeeks.org/lexicographically-smallest-string-formed-by-appending-a-character-from-first-k-characters-of-a-string-set-2/)
 
 string smallestString(string s, int k){
     int i;
