@@ -13,7 +13,7 @@ vector<vector<int>> ZigZag(TNode* root){
             temp.push_back(i);
         if(rev){
             reverse(temp.begin(), temp.end());
-            rev = true;
+            rev = false;
         }
         else
             rev = true;
